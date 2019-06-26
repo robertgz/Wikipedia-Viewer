@@ -1,0 +1,16 @@
+body {
+  background-color: #a3b2d1;
+}
+#resultsRow a {
+  text-decoration: none;
+}
+#resultsRow a div {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  margin: 10px;
+  border-left: 5px solid #a3b2d1;
+}
+#resultsRow a div:hover {
+  border-left: 5px solid red;
+}

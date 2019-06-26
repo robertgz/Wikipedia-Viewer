@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+  
+  
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="./style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="container " id="item">
+  <div class="row ">
+    <div class="col-md-4 col-md-offset-4">
+
+      <div class="row ">
+        <h4 class="text-center">Wikipedia Search</h4><br>
+        <div class="input-group " id="search-group">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button" id="clear-button">Clear</button>
+          </span>
+          <input type="text" class="form-control" placeholder="Search..." id="search-input">
+          <span class="input-group-btn">
+            <button class="btn btn-primary" type="button" id="go-button">Go</button>
+          </span>          
+        </div>
+        <br>
+        <h4 class="text-center">
+          <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+            Click here for a random article</a> </h4>
+      </div>
+    </div>
+    <!-- col-md-12 -->
+  </div>
+  <div class="row center-block" id="resultsRow" style="display: none">
+  </div>
+</div>
+<!-- container -->
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="./script.js"></script>
+
+
+
+
+</body>
+
+</html>
